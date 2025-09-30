@@ -1,9 +1,9 @@
 <template>
   <div>
-    <h2>Formulario sencillo</h2>
+    <h2>Formulario Itca</h2>
     <form>
       <div>
-        <label for="nombre">Nombre</label>
+        <label for="nombre">Nombre Completo</label>
         <input id="nombre" type="text" placeholder="Ingresa tu nombre" />
       </div>
 
@@ -14,12 +14,17 @@
 
       <div>
         <label for="carnet">Carnet</label>
-        <input id="carnet" type="text" placeholder="Ej: 20250001" />
+        <input id="carnet" type="text" placeholder="20250001" />
       </div>
 
       <div>
         <label for="edad">Edad</label>
         <input id="edad" type="number" placeholder="Ingresa tu edad" />
+      </div>
+
+      <div>
+        <label for="edad">Dui</label>
+        <input id="edad" type="number" placeholder="Ingresa tu dui" />
       </div>
 
       <button type="submit">Enviar</button>
